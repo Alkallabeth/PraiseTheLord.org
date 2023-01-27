@@ -1,0 +1,59 @@
+body{
+    background: black;
+}
+#homeBckImg{
+    width: 100%;
+}
+#homeBck{
+    position: relative;
+    width: 110%;
+    left: -10px;
+    bottom: 25vw;
+}
+#welcome{
+    color: white;
+    z-index: 10;
+    position: relative;
+    top: 25vw;
+    font-size: 10vw;
+}
+#learnDown{
+    position: sticky;
+    background: gray;
+    height: 10vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    bottom: 0;
+    width: 50%;
+    left: 25%;
+    margin-top: -13.3vh;
+}
+#learnH{
+    color: white;
+    font-size: 5vh;
+}
+#homeContent{
+    background: black;
+    position: relative;
+    bottom: 25vw;
+    width: 105%;
+    left: -10px;
+    color: white;
+}
+.homeH{
+    width: 47%;
+    font-size: 6vw;
+}
+.homeP{
+    font-size: 2.5vw;
+    width: 47%;
+}
+a{
+    color: aqua;
+}
+.contentDiv{
+    padding: 20px;
+    position: relative;
+    display: block;
+    overflow: auto;
+}

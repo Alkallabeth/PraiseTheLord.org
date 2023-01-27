@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+}
+#nav{
+    height: 10vh;
+    width: calc(100% + 10px);
+    position: sticky;
+    background: white;
+    box-shadow: 0 4px 2px -2px gray;
+    top: 0px;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 5px;
+    background: #4fa6e3;
+}
+#homeImg{
+    height: 9vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    float: left;
+}
+#navBtns{
+    float: right;
+    position: relative;
+    bottom: -3vh;
+    right: 3vw;
+}
+#navBtns > a{
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+    margin-left: 10vw;
+}
+#navBtns > a:hover{
+    text-decoration: underline;
+}
